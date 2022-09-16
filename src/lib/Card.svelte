@@ -14,7 +14,7 @@
 	href={url}
 	{target}
 	style:background={`linear-gradient(302.27deg, ${darkColor} 0.99%, ${lightColor} 100%)`}
-	class="grid grid-rows-[8rem_1rem_auto] p-6 rounded-3xl w-full shadow-lg hover:scale-90 transition-transform duration-300"
+	class="no-link-style grid grid-rows-[8rem_1rem_auto] p-6 rounded-3xl w-full shadow-lg hover:scale-90 transition-transform duration-300"
 >
 	<div>
 		{#if iconIsEmoji}

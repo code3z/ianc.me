@@ -8,9 +8,9 @@
 </svelte:head>
 
 <img src="/avatar.svg" alt="avatar" />
-<h1>hey, I’m Ian</h1>
+<h1 class="mb-1">hey, I’m Ian</h1>
 <h2>
-	<a href="mailto:ian@ianc.me">ian@ianc.me</a>
+	<a class="no-link-style" href="mailto:ian@ianc.me">ian@ianc.me</a>
 </h2>
 <div class="my-6">
 	<p class="mb-3">
@@ -57,7 +57,7 @@
 		darkColor="#298CA1"
 		subtitle="project"
 		icon="/shareweave-padded-round.svg"
-		url="/todo"
+		url="/shareweave"
 	/>
 	<Card
 		title="read.cv/ic"

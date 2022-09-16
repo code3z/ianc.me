@@ -9,9 +9,25 @@ body {
 }
 
 h1 {
-    @apply mt-5 mb-2 text-4xl font-semibold
+    @apply mt-5 mb-2 text-4xl font-semibold mb-6
 }
 
 h2 {
     @apply font-semibold opacity-70 text-lg
+}
+
+a:not(.no-link-style) {
+    @apply text-link hover:-translate-y-0.5 inline-block transition-all duration-200 hover:underline
+}
+
+p {
+    @apply my-3
+}
+
+ul {
+    @apply list-disc list-inside ml-4
+}
+
+li {
+    @apply my-1
 }
