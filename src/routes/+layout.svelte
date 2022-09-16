@@ -5,7 +5,7 @@
 </script>
 
 <PageTransition refresh={$page.url.href}>
-	<main class="p-8 max-w-6xl mx-auto pt-16" style:display={$navigating ? 'none' : 'block'}>
+	<main class="sm:p-8 p-4 max-w-6xl mx-auto pt-16" style:display={$navigating ? 'none' : 'block'}>
 		<slot />
 	</main>
 </PageTransition>

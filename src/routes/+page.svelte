@@ -25,7 +25,7 @@
 		out some of my work below.
 	</p>
 </div>
-<div class="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-12">
+<div class="grid grid-cols-[repeat(auto-fit,minmax(16rem,1fr))] gap-12">
 	<Card
 		title="@code3z"
 		lightColor="#767C8A"
