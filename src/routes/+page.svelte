@@ -5,6 +5,15 @@
 
 <svelte:head>
 	<title>Ian's homepage</title>
+	<meta property="og:title" content="Ian's homepage" />
+	<meta property="og:type" content="video.movie" />
+	<meta property="og:url" content="https://ianc.me/" />
+	<meta property="og:image" content="/avatar.svg" />
+	<meta
+		name="description"
+		property="og:description"
+		content="My homepage. I'm a 15yo web developer, designer, and entrepreneur."
+	/>
 </svelte:head>
 
 <img src="/avatar.svg" alt="avatar" />
@@ -14,7 +23,7 @@
 </h2>
 <div class="my-6">
 	<p class="mb-3">
-		I’m a 15yo web developer, designer, and entrepreneur (surprised I spelled that correctly).
+		I’m a 15yo web developer, designer, and entrepreneur (and always trying to learn more).
 	</p>
 
 	<p>
