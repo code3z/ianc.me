@@ -1,0 +1,20 @@
+<script lang="ts">
+	export let title: string;
+	export let subtitle: string;
+	export let icon: string;
+	export let lightColor: string;
+	export let darkColor: string;
+	export let url: string;
+	export let target: string = '';
+</script>
+
+<a
+	href={url}
+	{target}
+	style:background={`linear-gradient(302.27deg, ${darkColor} 0.99%, ${lightColor} 100%)`}
+	class="grid grid-rows-[8rem_1rem_auto] p-6 rounded-3xl w-[20rem] shadow-lg hover:scale-90 transition-transform duration-300"
+>
+	<div><img src={icon} class="h-16" alt="icon" /></div>
+	<small class="text-sm opacity-60 font-semibold uppercase">{subtitle}</small>
+	<p class="text-2xl font-bold mt-2">{title}</p>
+</a>
