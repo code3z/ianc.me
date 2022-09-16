@@ -25,7 +25,7 @@
 		out some of my work below.
 	</p>
 </div>
-<div class="grid auto-cols-min grid-flow-col gap-12">
+<div class="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-12">
 	<Card
 		title="@code3z"
 		lightColor="#767C8A"
@@ -44,11 +44,28 @@
 		url="/todo"
 	/>
 	<Card
+		title="Dots Email Digest"
+		lightColor="rgb(19, 87, 217)"
+		darkColor="#04008e"
+		subtitle="project"
+		icon="✉️"
+		url="/todo"
+	/>
+	<Card
 		title="Shareweave"
 		lightColor="#0BCAF4"
 		darkColor="#298CA1"
 		subtitle="project"
 		icon="/shareweave-padded-round.svg"
 		url="/todo"
+	/>
+	<Card
+		title="read.cv"
+		lightColor="#0BCAF4"
+		darkColor="#298CA1"
+		subtitle="resume"
+		icon="/shareweave-padded-round.svg"
+		url="https://read.cv/ic"
+		target="_blank"
 	/>
 </div>
