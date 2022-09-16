@@ -60,11 +60,11 @@
 		url="/todo"
 	/>
 	<Card
-		title="read.cv"
-		lightColor="#0BCAF4"
-		darkColor="#298CA1"
+		title="read.cv/ic"
+		lightColor="rgb(0, 172, 132)"
+		darkColor="rgb(26, 70, 0)"
 		subtitle="resume"
-		icon="/shareweave-padded-round.svg"
+		icon="/readcv.png"
 		url="https://read.cv/ic"
 		target="_blank"
 	/>
