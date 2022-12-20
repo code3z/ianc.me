@@ -3,31 +3,30 @@
 @tailwind utilities;
 
 body {
-    font-family: Inter, sans-serif;
-    background: #2F3237;
-    color: white;
+	font-family: Inter, sans-serif;
+	@apply bg-zinc-700 text-white;
 }
 
 h1 {
-    @apply mt-5 mb-2 text-4xl font-semibold mb-6
+	@apply mt-5 text-4xl font-semibold tracking-tight mb-6;
 }
 
 h2 {
-    @apply font-semibold opacity-70 text-lg
+	@apply font-semibold opacity-70 text-lg;
 }
 
 a:not(.no-link-style) {
-    @apply text-link hover:-translate-y-0.5 inline-block transition-all duration-200 hover:underline
+	@apply text-link hover:-translate-y-0.5 inline-block transition-all duration-200 hover:underline;
 }
 
 p {
-    @apply my-3
+	@apply my-3;
 }
 
 ul {
-    @apply list-disc list-inside ml-4
+	@apply list-disc list-inside ml-4;
 }
 
 li {
-    @apply my-1
+	@apply my-1;
 }

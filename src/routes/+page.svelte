@@ -16,22 +16,25 @@
 	/>
 </svelte:head>
 
-<img src="/avatar.svg" alt="avatar" />
-<h1 class="mb-1">hey, I’m Ian</h1>
+<img src="/avatar.svg" alt="avatar" class="hover:-rotate-12 transition-all duration-150" />
+<h1 class="mb-1">hey, i’m ian</h1>
 <h2>
 	<a class="no-link-style" href="mailto:ian@ianc.me">ian@ianc.me</a>
 </h2>
-<div class="my-6">
+<div class="my-6 text-lg text-gray-200">
 	<p class="mb-3">
 		I’m a 15yo web developer, designer, and entrepreneur (and always trying to learn more).
 	</p>
 
 	<p>
-		I’ve tried starting a startup and am currently doing an internship @ <a
+		I’ve tried starting a startup, which led to an internship @ <a
 			class="text-link"
 			href="https://dots.community">dots.community.</a
-		> I’m also a boy scout and do some other stuff. I designed and built this page, you can also check
-		out some of my work below.
+		>
+		(a company I had previously wanted to compete against). Right now, I'm working as a software engineer
+		at <a class="text-link" href="https://thirdbuy.com">thirdbuy.</a> I’m also a boy scout and do some
+		other stuff. You can check out some of my work below - in addition to designing this page, of course
+		:)
 	</p>
 </div>
 <div class="grid grid-cols-[repeat(auto-fit,minmax(16rem,1fr))] gap-12">
@@ -50,7 +53,7 @@
 		darkColor="#8E320B"
 		subtitle="internship"
 		icon="/dots.svg"
-		url="/todo"
+		url="/dots"
 	/>
 	<Card
 		title="Dots Email Digest"
@@ -67,6 +70,16 @@
 		subtitle="project"
 		icon="/shareweave-padded-round.svg"
 		url="/shareweave"
+	/>
+
+	<Card
+		title="Thirdbuy"
+		lightColor="rgb(175, 87, 200)"
+		darkColor="#7D37EE"
+		subtitle="job"
+		icon="/thirdbuy-icon.png"
+		url="/thirdbuy"
+		target="_blank"
 	/>
 	<Card
 		title="read.cv/ic"
