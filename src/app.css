@@ -4,7 +4,7 @@
 
 body {
 	font-family: Inter, sans-serif;
-	@apply bg-zinc-700 text-white;
+	@apply bg-zinc-800 text-white;
 }
 
 h1 {
